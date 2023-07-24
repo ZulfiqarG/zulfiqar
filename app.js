@@ -6,9 +6,9 @@ const cors = require("cors");//importes CORS for cross origin resource sharing
 const app = express(); //initialised the express app
 
 const port = process.env.PORT || 8080; 
-const connectionString = "mongodb://Kushagra:V432km1@ac-wlfh8pz-shard-00-00.ipb9orv.mongodb.net:27017,ac-wlfh8pz-shard-00-01.ipb9orv.mongodb.net:27017,ac-wlfh8pz-shard-00-02.ipb9orv.mongodb.net:27017/?ssl=true&replicaSet=atlas-127egj-shard-0&authSource=admin&retryWrites=true&w=majority";
+// const connectionString = "mongodb://Kushagra:V432km1@ac-wlfh8pz-shard-00-00.ipb9orv.mongodb.net:27017,ac-wlfh8pz-shard-00-01.ipb9orv.mongodb.net:27017,ac-wlfh8pz-shard-00-02.ipb9orv.mongodb.net:27017/?ssl=true&replicaSet=atlas-127egj-shard-0&authSource=admin&retryWrites=true&w=majority";
 //ChyFTajMprE2XwaV
-
+const connectionString = "mongodb+srv://zulfiqar:zulfiqar123@cluster0.wjzckpk.mongodb.net/?retryWrites=true&w=majority";
 //required middlewares
 app.use(cors());
 app.use(express.json());
